@@ -54,7 +54,7 @@ class _TripScreenState extends State<TripScreen> {
           const SizedBox(height: 5),
           Row(
             children: [
-              Text("${Trip(id: 5, title: country, date: date)} ",
+              Text("${Trip(id: 5, title: city, date: date)} ",
                   style: TextStyle(fontSize: 20))
             ],
           ),

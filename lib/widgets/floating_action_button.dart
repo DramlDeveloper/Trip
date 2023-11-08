@@ -61,7 +61,7 @@ class FloatingActionButtonState extends State<FloatingActionButtonVoyage> {
               onPressed: () {
                 Navigator.pop(context);
                 setState(() {
-                  country = controller.text;
+                  city = controller.text;
                   date;
                 });
               },
